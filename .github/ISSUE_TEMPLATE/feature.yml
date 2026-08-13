@@ -1,0 +1,49 @@
+name: Feature proposal
+description: Describe a professional IT operations need before proposing a solution.
+title: "[Proposal]: "
+labels: ["type: proposal", "status: needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Operational problem
+      description: Who experiences the problem, under what conditions, and what happens today?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe success without assuming a particular implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: scale
+    attributes:
+      label: Environment and scale
+      description: Relevant endpoints, sites, check frequency, retention, restrictions, and failure conditions.
+  - type: textarea
+    id: security
+    attributes:
+      label: Security and privacy considerations
+      description: What new data, privilege, network access, or trust boundary would this introduce?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workarounds or alternatives
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Measurable acceptance criteria
+      description: How would the project verify that the need is met?
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and roadmap items.
+          required: true
+        - label: I have described the need separately from my preferred implementation.
+          required: true

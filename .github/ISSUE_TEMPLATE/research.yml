@@ -1,0 +1,29 @@
+name: Research task
+description: Propose a bounded question that needs evidence before a decision.
+title: "[Research]: "
+labels: ["type: research", "status: needs-triage"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision this informs
+      description: What project choice is blocked or improved by this research?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Required evidence
+      description: Prefer standards, official documentation, source code, benchmarks, and primary advisories.
+  - type: textarea
+    id: done
+    attributes:
+      label: Completion criteria
+    validations:
+      required: true

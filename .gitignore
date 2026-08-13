@@ -1,0 +1,23 @@
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs, databases, and runtime data
+*.log
+*.db
+*.sqlite
+data/
+dist/
+build/
+coverage/
