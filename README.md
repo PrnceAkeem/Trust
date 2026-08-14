@@ -63,6 +63,8 @@ Start with:
 - [Competitor research](docs/research/competitors.md)
 - [Threat-model research](docs/THREAT_MODEL.md)
 - [Scalability strategy](docs/SCALABILITY.md)
+- [Minimum viable product](docs/product/MVP.md)
+- [Proposed system architecture](docs/architecture/SYSTEM_ARCHITECTURE.md)
 - [Roadmap](ROADMAP.md)
 
 ## Contributing

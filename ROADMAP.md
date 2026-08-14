@@ -16,6 +16,7 @@ Exit: discovery criteria in the project brief are satisfied and recorded.
 
 ## Phase 1: First Vertical Slice
 
+- Review and accept the MVP and initial-system-shape ADR.
 - Enroll one approved endpoint with a unique identity.
 - Collect a minimal set of host health signals.
 - Evaluate a sustained threshold and record state history.
